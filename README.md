@@ -1,2 +1,2 @@
-# cyraon-doc
-Documentation for the programming language Cyraon(WIP)
+# Cyraon Documentation
+This is the documentation repository for **Cyraon** programming language.
