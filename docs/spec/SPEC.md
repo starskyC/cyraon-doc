@@ -24,8 +24,8 @@ Cyraon Syntax is consisted of two concepts: **Node** and **Expr**
     - Variable
     - [Lambda](#lambda)
 - 10 **Left Associative**
-    - [FnCall & its variants]() 
-    - [Index & its variants]()
+    - [FnCall & its variants](#function-call) 
+    - [Index & its variants](#index-call)
 - 9 **Right Associative** Unaries 
     - `!`...
     - `+`...
@@ -52,8 +52,7 @@ Cyraon Syntax is consisted of two concepts: **Node** and **Expr**
     - ...`!=`...
 - 2 **Left Associative** LogicalAnd ...`&&`...
 - 1 **Left Associative** LogicalOr ...`||`...
-- 0 **Left Associative** [Index & its variants](#)
-
+- 0 **Left Associative** [MsgCall & its variants](#message-call)
 ---
 
 ### Block
@@ -144,12 +143,21 @@ let curried_add = a -> b -> a + b;
 let three = curried_add 1 2;
 ```
 
+TODO: finish [Index Call]
+### Index Call
+
+
+TODO: finish [Function Call]
 ### Function Call
 ```cyraon
 // usually, functions are just what you would normally expected
 f(a, b, c);
-however
 ```
+however, you could actually
+
+TODO: finish [Message Call]
+### Message Call
+
 
 
 ### Variable Assignment
